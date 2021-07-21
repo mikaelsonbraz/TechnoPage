@@ -1,0 +1,46 @@
+/*Limpando formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d7dade;
+}
+
+/*Layout header da página*/
+.header {
+    background-color: #f0a356;
+    border-bottom: 3px solid #f07630;
+    text-align: center;
+    padding: 80px;
+}
+
+.header h1 {
+    font-size: 4em;
+}
+
+.header span {
+    color: white;
+}
+
+.linkh {
+    padding: 10px;
+    position: relative;
+    top: 65px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+.linkh:visited {
+    color: slateblue;
+}
+
+.linkh:hover {
+    color: #f0a356;
+    background-color: white;
+}
+/*Fim do layout do header da página*/
