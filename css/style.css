@@ -15,7 +15,7 @@ body {
     background-color: #f0a356;
     border-bottom: 3px solid #f07630;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
 }
 
 .header h1 {
@@ -29,7 +29,7 @@ body {
 .linkh {
     padding: 10px;
     position: relative;
-    top: 65px;
+    top: 40px;
     font-size: 1.4em;
     text-decoration: none;
     color: white;
@@ -42,5 +42,124 @@ body {
 .linkh:hover {
     color: #f0a356;
     background-color: white;
+    border-radius: 5mm;
 }
 /*Fim do layout do header da página*/
+
+/*Início da área principal*/
+/*Início postagens principais*/
+
+#areaPrincipal {
+    width: 70%;
+    margin: 20px auto;
+}
+
+#noticias {
+    float: left;
+    width: 70%;
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.conteudo h1 {
+    color: #f0a356;
+}
+
+.conteudo p {
+    font-size: 0.8em;
+}
+
+.conteudo img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.conteudo h5 {
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudo a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #f0a356;
+}
+
+.conteudo a:hover {
+    text-decoration: underline;
+}
+/*Fim postagens principais*/
+
+/*Início caixa lateral*/
+
+#barraLateral {
+    float: right;
+    width: 28%;
+}
+
+.navLateral {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.navLateral h5 {
+    padding: 10px 0;
+}
+
+.navLateral a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #f0a356;
+    display: block;
+}
+
+.linkLateral {
+    color: #f0a356;
+    width: 28%;
+    padding: 5px;
+}
+
+.linkLateral:hover {
+    color: white;
+    background-color: #f0a356;
+    border-radius: 5mm;
+}
+
+.tituloLateral {
+    color: white;
+    background-color: #f0a356;
+    padding: 5px;
+}
+
+.categorias {
+    padding: 10px 0;
+}
+
+.categorias li {
+    padding: 5px;
+}
+
+.categorias a:hover {
+    color: white;
+    background-color: #f0a356;
+    display: inline;
+    padding: 5px;
+    border-radius: 5mm;
+}
+
+/*Fim do conteúdo da barra lateral*/
+/*Fim da área principal*/
+
+/*Início do rodapé*/
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 35px
+}
